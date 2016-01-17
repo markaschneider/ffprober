@@ -1,7 +1,7 @@
 language: ruby
 
 before_script:
-  - cp test/ffprobe /home/travis/bin
+  - cp test/ffprobe /home/travis/bin/ffprobe
   - chmod +x /home/travis/bin/ffprobe
   - ls /home/travis/bin
 
