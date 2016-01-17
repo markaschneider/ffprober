@@ -1,7 +1,6 @@
 language: ruby
 
 before_script:
-  - echo $PATH
   - cp test/ffprobe /home/travis/bin
 
 script: rake
