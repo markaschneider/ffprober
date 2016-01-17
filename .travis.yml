@@ -6,6 +6,7 @@ before_script:
   - ls -lah
   - ls -lah /home/travis/
   - ls -lah /home/travis/bin
+  - mkdir -p /home/travis/bin
   - cp test/ffprobe /home/travis/bin/ffprobe
   - chmod +x /home/travis/bin/ffprobe
   - ls /home/travis/bin
