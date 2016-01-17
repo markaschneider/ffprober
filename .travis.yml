@@ -3,10 +3,7 @@ dist: trusty
 language: ruby
 
 before_script:
-  - apt-get install ffmpeg
-  - mkdir -p /home/travis/bin
-  - cp test/ffprobe /home/travis/bin/ffprobe
-  - chmod +x /home/travis/bin/ffprobe
+  - gem install bundler
 
 script: rake
 
