@@ -1,6 +1,9 @@
 language: ruby
 
 before_script:
+  - pwd
+  - echo $PATH
+  - ls -lah
   - cp test/ffprobe /home/travis/bin/ffprobe
   - chmod +x /home/travis/bin/ffprobe
   - ls /home/travis/bin
